@@ -4,6 +4,10 @@ Special FW-Version for ESP8266 with BME680 sensor.
 Using BOSCH\Sensortec static lib BSEC_1.4.5.1_Generic_Release_20171116.
 Check needed special manual arduino linker configuration, specified in pdf: BST-BME680-AN008-45.pdf in the \doc-directory.
 Implementing LaCrosse-universal-sensor-protocol, thankful derived from github/hdgucken's work with some slighly changes.
+ESP-Pin setup definitions actually are compatible with ESP-12-module (and D1 mini-board).
+
+Arduino-settings for flashing ESP: 
+*C:\Users\juergs\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9/esptool.exe -vv -cd nodemcu -cb 921600 -cp COM9 -ca 0x00000 -cf C:\Users\juergs\AppData\Local\Temp\arduino_build_408171/BME680_UniversalSensor.ino.bin*
 
 Using Peter's (pemue) pcb at fhem community: https://forum.fhem.de/index.php/topic,51329.msg876501.html#msg876501 and 
 pcb: https://forum.fhem.de/index.php/topic,51329.0.html 
