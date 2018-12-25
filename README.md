@@ -3,7 +3,7 @@
 Special FW-Version for ESP8266 with BME680 sensor.
 Using BOSCH\Sensortec static lib BSEC_1.4.5.1_Generic_Release_20171116.
 Check needed special manual arduino linker configuration, specified in pdf: BST-BME680-AN008-45.pdf in the \doc-directory.
-Implementing LaCrosse-Universal-Sensor-protokol, thankful derived from github/hdgucken's work.
+Implementing LaCrosse-universal-sensor-protocol, thankful derived from github/hdgucken's work with some slighly changes.
 
 Using Peter's (pemue) pcb at fhem community: https://forum.fhem.de/index.php/topic,51329.msg876501.html#msg876501 and 
 pcb: https://forum.fhem.de/index.php/topic,51329.0.html 
