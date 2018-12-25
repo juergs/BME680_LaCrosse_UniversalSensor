@@ -6,7 +6,7 @@ Check needed special manual arduino linker configuration, specified in pdf: *BST
 Implementing LaCrosse-universal-sensor-protocol, thankful derived from github/hdgucken's work with some slighly changes.
 ESP-Pin setup definitions actually are compatible with ESP-12-module (and D1 mini-board).
 
-Using BME680 + bh1750 LUX-sensor and RFM68CW (868 MHz) for RF-transmission.
+Using BME680 + bh1750 LUX-sensor and RFM68CW (868 MHz) for RF-transmission. Notice: additional Libs in Zip file added.
 
 Arduino-settings for flashing ESP: 
 *C:\Users\juergs\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9/esptool.exe -vv -cd nodemcu -cb 921600 -cp COM9 -ca 0x00000 -cf C:\Users\juergs\AppData\Local\Temp\arduino_build_408171/BME680_UniversalSensor.ino.bin*
