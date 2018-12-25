@@ -11,7 +11,7 @@ Using BME680 + bh1750 LUX-sensor and RFM68CW (868 MHz) for RF-transmission. Noti
 Arduino-settings for flashing ESP: 
 *C:\Users\juergs\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9/esptool.exe -vv -cd nodemcu -cb 921600 -cp COM9 -ca 0x00000 -cf C:\Users\juergs\AppData\Local\Temp\arduino_build_408171/BME680_UniversalSensor.ino.bin*
 
-Using Peter's (pemue) pcb at fhem community: https://forum.fhem.de/index.php/topic,51329.msg876501.html#msg876501 and 
+Using Peter's (pemue) pcb at fhem community (german): https://forum.fhem.de/index.php/topic,51329.msg876501.html#msg876501 and 
 pcb: https://forum.fhem.de/index.php/topic,51329.0.html 
 
 This project is based on my cc_sensor, HCS has made some changes to upgrade it to the UniversalSensor, many thanks to HCS !
